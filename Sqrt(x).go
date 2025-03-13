@@ -15,3 +15,25 @@ func mySqrt(x int) int {
 
 	return start - 1
 }
+
+/*
+type Script Solution
+function mySqrt(x: number): number {
+  // as per the constrain x lies from 0 - 2^31-1
+  let low = 0;
+
+  let high = x;
+
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2);
+
+    const square = mid * mid;
+    else high = mid - 1;
+  }
+
+  // at the end of the iteration our high
+  // pointer will point to the correct number
+  return high;
+}
+
+*/
